@@ -1,0 +1,45 @@
+@media(max-width:991px){
+    /* Navbar------------------------- */
+    
+    .header-wrapper .menu-navbar-nav{
+        text-align:center;
+        background-color: var(--bg-dark-blue);
+        padding:2rem 0 2.7rem 0;
+    }    
+    
+    .header-wrapper .nav-item{
+        margin-top:0.8rem;
+    }
+    .header-scrolled{
+        height: auto;
+    }
+    
+    /* Banner--------------------------- */
+    .banner-wrapper{
+        padding:200px 0;
+    }
+    /* About------------------------------------ */
+    .about-wrapper ul.nav-pills{
+        width:55%;
+        margin:auto;
+    }
+    /* Portfolio---------------------------------- */
+    .portfolio-wrapper .card{
+        height:400px;
+    }
+    }
+    
+    @media(max-width:767px){
+    /* About---------------------------- */
+    .about-wrapper ul.nav-pills{
+        width:100%;
+        border: none;
+    }
+    .about-wrapper ul .nav-link{
+        font-size:13px;
+    }
+    /* Portfolio ----------------------------------- */
+      .portfolio-wrapper .card{
+        height:500px;
+      }
+    }
